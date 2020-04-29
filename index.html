@@ -1,0 +1,65 @@
+<HTML>
+  <HEAD>
+    <TITLE>Задача</TITLE>
+    <SCRIPT  LANGUAGE="JavaScript">
+      <!--
+    function zapoln()
+    {
+    x=prompt("Введите первое число");
+    y=prompt("Введите второе число");
+    z=prompt("Введите третье число");
+    var proiz=0;
+    proiz=x*y*z;
+alert(proiz);
+    }  
+
+
+    function zapoln2()
+    {
+    x=prompt("Введите первое число");
+    y=prompt("Введите второе число");
+    z=prompt("Введите третье число");
+    var proiz=0;
+    proiz=(1-x)*(1-y)*(1-z);
+alert(proiz);
+    } 
+
+
+    function zapoln3()
+    {
+    x=prompt("Введите первое число");
+    y=prompt("Введите второе число");
+    z=prompt("Введите третье число");
+    var one=(1-x)*y*z;
+    var two=x*(1-y)*z;
+    var tri=x*y*(1-z);
+alert(one + two+tri);
+    } 
+
+
+    function zapoln4()
+    {
+    x=prompt("Введите первое число");
+    y=prompt("Введите второе число");
+    z=prompt("Введите третье число");
+    var proiz=0;
+    proiz=(1-x)*(1-y)*(1-z);
+alert(1-proiz);
+    } 
+
+
+
+    </SCRIPT>
+  </HEAD>
+ 
+  <BODY>
+    Задача 1
+  <p><input type=button value="Сдаст все экзамены" onclick=zapoln()></p>
+  <p><input type=button value="Не сдаст ни одного" onclick=zapoln2()></p>
+  <p><input type=button value="Сдаст один" onclick=zapoln3()></p>
+  <p><input type=button value="Сдаст хотя бы один" onclick=zapoln4()></p>
+   
+    <div id=otvet></div>
+<div id=g></div>
+  </BODY>
+</HTML>
